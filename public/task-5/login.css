@@ -1,0 +1,9 @@
+body {
+ 		background-image: url(img/bg1.jpg);
+ 		background-repeat: no-repeat;
+ 		width: 100%;
+ 	}
+ 	.image {
+ 		background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+ 		width: 100%;
+ 	}	

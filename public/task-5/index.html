@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ 	<script src="check.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="login.css"> 	
+ </head>
+ <body>
+ 	<div class="py-5 container mx-auto text-center assign">
+ 	<div class="image text-light was-validated"> 
+     <h3 class="py-3"> Password Checking</h3>   	
+	<b>User Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b>
+	<input type="text" id="given_data" placeholder="Enter Your Name" required>
+	 <div class="valid-feedback">Valid.</div>
+     <div class="invalid-feedback">Please fill out this field.</div>
+	<b>Password &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b>
+	<input type="password" id="given_value" placeholder="Enter Your Password" required>
+	 <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+	<div class="text-center mx-auto">
+	<b>Re-enter Password &nbsp;&nbsp;:</b>
+	<input type="password" id="confirm_value" placeholder="Re-enter Your Password" required>
+	 <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+	<div class="text-center mx-auto">    
+	<button class ="btn btn-lg btn-info py-2" onclick="myfunc()">Log in</button>
+   </div><br><br>
+	<h3 id="result" class=" text-light pb-3"></h3>	
+</div>
+</div>
+</body>
+</html>
